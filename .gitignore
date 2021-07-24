@@ -2,3 +2,6 @@ tasks.tasks
 /node_modules
 *.pyo
 *.pyc
+/.idea/
+/SETTINGS.py
+/.vscode

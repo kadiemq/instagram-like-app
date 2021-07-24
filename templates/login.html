@@ -12,13 +12,13 @@
         <h1>Login Page</h1>
         <div class="form-wrapper">
             <form action="/login" method="post">
+
+                <p class="error_msg">{{ error_msg }}</p>
                 
-                <!-- <label for="username">Username Or Email:</label> -->
                 <input type="text" name="username" id="username" class="input" placeholder="Username Or Email">
                 
 
-                <!-- <label for="password">Password:</label> -->
-                <input type="text" name="password" id="password" class="input" placeholder="Password">
+                <input type="password" name="password" id="password" class="input" placeholder="Password">
 
                 <button type='submit'>Login</button>
             
